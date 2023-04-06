@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Schirrms\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "schirrms/schirrms-general-dashboard",
+  "type": "itop-extension",
+  "description": "A company wide dashboard",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
